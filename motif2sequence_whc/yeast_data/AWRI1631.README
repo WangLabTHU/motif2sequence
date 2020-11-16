@@ -1,0 +1,21 @@
+Preliminary Release of S. cerevisiae strain AWRI1631 sequences.
+
+4/29/2011
+
+This directory contains 4 files describing the genome of S. cerevisiae strain
+AWRI1631 (PMID:18778279; WGS ID: ABSV00000000). The files are:
+
+a genome fasta file: AWRI1631_AWRI_2008_ABSV01000000.fsa
+a nucleic acid coding sequence file: AWRI1631_ABSV01000000_cds.fsa
+a protein sequence file: AWRI1631_ABSV01000000_pep.fsa
+a GFF file: AWRI1631_ABSV01000000.gff
+
+Feature definitions (for coding sequences and features in the gff file) were
+assigned using Jim Kent's liftOver program with a blat alignment vs. the R64
+(current) S288C reference sequence.
+
+This assembly contains 2484 contigs (coverage: 7X, mean contig size: 4500,
+N50: 7704). Using liftOver, 4747 SGD gene features were found in
+the assembly.
+
+

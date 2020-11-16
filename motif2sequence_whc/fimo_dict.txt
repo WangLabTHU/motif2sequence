@@ -1,0 +1,641 @@
+{'NHP6B':     motif_id motif_alt_id  ...  q-value      matched_sequence
+0   MA0346.1        NHP6B  ...  0.00698  TGTATCTATATATAAAATGT
+10  MA0346.1        NHP6B  ...  0.01230  TGTATCTATATATAAAAAGT
+
+[2 rows x 10 columns], 'SPT15':    motif_id motif_alt_id  ...  q-value       matched_sequence
+1  MA0386.1        SPT15  ...  0.00513  GTATAGATATATATATACATA
+4  MA0386.1        SPT15  ...  0.00513  ATATAGATATATATATACATA
+
+[2 rows x 10 columns], 'NHP6A':    motif_id motif_alt_id  ...  q-value       matched_sequence
+2  MA0345.1        NHP6A  ...  0.00766  TTTACCTATATATAAATGTTC
+3  MA0345.1        NHP6A  ...  0.00766  ATATTCTATATATAATTATTA
+
+[2 rows x 10 columns], 'GCN4':     motif_id motif_alt_id  ...  q-value       matched_sequence
+12  MA0303.1         GCN4  ...   0.0822  AAAAGCATGAGTCATCCTTCT
+21  MA0303.1         GCN4  ...   0.0822  TAAACGATGAGTCATACTTTA
+
+[2 rows x 10 columns], 'SFP1':     motif_id motif_alt_id  ...  q-value       matched_sequence
+16  MA0378.1         SFP1  ...   0.0168  TTTTGAAAAATTTTTCTTTTC
+17  MA0378.1         SFP1  ...   0.0168  TTTTGAAAAATTTTTCTTTTC
+
+[2 rows x 10 columns], 'GAL4':     motif_id motif_alt_id  ...  q-value  matched_sequence
+22  MA0299.1         GAL4  ...    0.188   CGGGGCACAGCCCTC
+56  MA0299.1         GAL4  ...    0.245   CGGGCAACACCACTC
+
+[2 rows x 10 columns], 'BAS1':      motif_id motif_alt_id  ...  q-value       matched_sequence
+23   MA0278.1         BAS1  ...    0.181  GCATAGCTAGAGTCAGATCAA
+965  MA0278.1         BAS1  ...    1.000  GGGCGGGCTGAGTCAGGTCTA
+
+[2 rows x 10 columns], 'YAP1':       motif_id motif_alt_id  ...  q-value      matched_sequence
+36    MA0415.1         YAP1  ...    0.265  ATTCGCTTACGTAAGGCGGA
+1392  MA0415.1         YAP1  ...    0.996  GTTTTCTTACCTAATTCCGC
+
+[2 rows x 10 columns], 'STB3':      motif_id motif_alt_id  ...  q-value       matched_sequence
+53   MA0390.1         STB3  ...   0.0383  GCCATATTTTTTTCACTTTCT
+523  MA0390.1         STB3  ...   0.0383  TTCTTGTTTTTTTCACCCCGC
+
+[2 rows x 10 columns], 'NDT80':      motif_id motif_alt_id  ...  q-value       matched_sequence
+65   MA0343.1        NDT80  ...    0.486  GTCCCGGGCACAAAAACACAA
+459  MA0343.1        NDT80  ...    0.728  TTGTCGGACGCAAAGTCGGTA
+
+[2 rows x 10 columns], 'RAP1':     motif_id motif_alt_id  ...  q-value  matched_sequence
+71  MA0359.1         RAP1  ...   0.0759        CACCCATACA
+72  MA0359.1         RAP1  ...   0.0759        CACCCATACA
+
+[2 rows x 10 columns], 'YRR1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+94   MA0439.1         YRR1          478.0  ...  0.000001    0.438      CTTATTTCCGT
+114  MA0439.1         YRR1         5515.0  ...  0.000001    0.438      CTTATATCCGT
+
+[2 rows x 10 columns], 'MGA1':      motif_id motif_alt_id  ...  q-value       matched_sequence
+96   MA0336.1         MGA1  ...    0.234  TGCGGTATCGAACATGAAAAA
+234  MA0336.1         MGA1  ...    0.234  AGGTATATCGAACATGAAAAA
+
+[2 rows x 10 columns], 'ECM23':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+102  MA0293.1        ECM23         1464.0  ...  0.000001    0.329      AAAGATCTAAC
+103  MA0293.1        ECM23         1951.0  ...  0.000001    0.329      AAAGATCTAAC
+
+[2 rows x 10 columns], 'YAP6':       motif_id motif_alt_id  ...  q-value      matched_sequence
+115   MA0418.1         YAP6  ...    0.807  CATTCGCTTACGTAAGGCGG
+2848  MA0418.1         YAP6  ...    1.000  GAGCAGCTTATCTCAGCAAA
+
+[2 rows x 10 columns], 'DAL81':      motif_id motif_alt_id  ...  q-value     matched_sequence
+132  MA0290.1        DAL81  ...    0.644  GCAAGCCTCGGACGGGACT
+167  MA0290.1        DAL81  ...    0.644  AAAAGTCGCGGGCAGGTGG
+
+[2 rows x 10 columns], 'RLM1':      motif_id motif_alt_id  ...  q-value    matched_sequence
+137  MA0369.1         RLM1  ...   0.0536  CAATCTATATATAGTTTG
+271  MA0369.1         RLM1  ...   0.0536  CAATCTATATATAGTTAT
+
+[2 rows x 10 columns], 'RTG3':      motif_id motif_alt_id  ...  q-value      matched_sequence
+139  MA0376.1         RTG3  ...      1.0  TGATAAGCACGTGCCCCGTT
+499  MA0376.1         RTG3  ...      1.0  AACGCGGCACGTGATGACTA
+
+[2 rows x 10 columns], 'TDA9':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+170  MA0431.1         TDA9         5245.0  ...  0.000002    0.542        ACCCCGCAC
+352  MA0431.1         TDA9         5193.0  ...  0.000004    0.542        CCCCCGCAC
+
+[2 rows x 10 columns], 'MET31':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+179  MA0333.1        MET31          577.0  ...  0.000002    0.748        GGTGTGGCG
+180  MA0333.1        MET31         4442.0  ...  0.000002    0.748        GGTGTGGCG
+
+[2 rows x 10 columns], 'NCU00019':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+183  MA0929.1     NCU00019          845.0  ...  0.000002    0.111     TTAGTAAACAAA
+184  MA0929.1     NCU00019         2054.0  ...  0.000002    0.111     TTAGTAAACAAA
+
+[2 rows x 10 columns], 'SOK2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+193   MA0385.1         SOK2         1821.0  ...  0.000002      1.0      ACCTGCAGGGC
+4317  MA0385.1         SOK2         1308.0  ...  0.000032      1.0      CCCTGCATGAG
+
+[2 rows x 10 columns], 'ZMS1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+195  MA0441.1         ZMS1         5155.0  ...  0.000002    0.272        TTCCCCGCA
+196  MA0441.1         ZMS1         5210.0  ...  0.000002    0.272        TTCCCCGCA
+
+[2 rows x 10 columns], 'DOT6':      motif_id motif_alt_id  ...  q-value       matched_sequence
+205  MA0351.1         DOT6  ...    0.738  TGTCGCAACTCATCTCTTCCT
+206  MA0351.1         DOT6  ...    0.738  TGTCGCAACTCATCTCTTCCT
+
+[2 rows x 10 columns], 'THI2':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+210  MA0407.1         THI2         1329.0  ...  0.000003    0.121  AGCAACCTATAGAAA
+211  MA0407.1         THI2         1330.0  ...  0.000003    0.121  AGCAACCTATAGAAA
+
+[2 rows x 10 columns], 'SFL1':      motif_id motif_alt_id  ...  q-value       matched_sequence
+225  MA0377.1         SFL1  ...    0.171  AAGGAAAGAGAAGAAAAAAAA
+279  MA0377.1         SFL1  ...    0.171  TAATATATAGAAGAAAAAACC
+
+[2 rows x 10 columns], 'IXR1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+256  MA0323.1         IXR1          766.0  ...  0.000003    0.477  ATTCCAGAAGCAGGT
+257  MA0323.1         IXR1          765.0  ...  0.000003    0.477  ATTCCAGAAGCAGGT
+
+[2 rows x 10 columns], 'SMP1':       motif_id motif_alt_id  ...  q-value       matched_sequence
+268   MA0383.1         SMP1  ...    0.261  TCTGCTTCAATTAAATAAGAA
+1612  MA0383.1         SMP1  ...    0.261  GCAGCTATAAATAAATCACGC
+
+[2 rows x 10 columns], 'ABF1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value  matched_sequence
+275  MA0265.1         ABF1         1059.0  ...  0.000003      1.0  CCGTAAGAAATGACGA
+927  MA0265.1         ABF1         3780.0  ...  0.000008      1.0  TCGTTCAACATGATAA
+
+[2 rows x 10 columns], 'LEU3':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+276  MA0324.1         LEU3          434.0  ...  0.000003      1.0       CCTTTACCGG
+409  MA0324.1         LEU3          939.0  ...  0.000004      1.0       CCGTCAGCGG
+
+[2 rows x 10 columns], 'STP4':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+299  MA0397.1         STP4         2538.0  ...  0.000004    0.331        GATAGCGCA
+300  MA0397.1         STP4          151.0  ...  0.000004    0.331        GATAGCGCA
+
+[2 rows x 10 columns], 'GAT4':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+314  MA0302.1         GAT4         4728.0  ...  0.000004      1.0      AAAGATCTAAA
+773  MA0302.1         GAT4         1464.0  ...  0.000007      1.0      AAAGATCTAAC
+
+[2 rows x 10 columns], 'YPR196W':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+315  MA0437.1      YPR196W         1567.0  ...  0.000004    0.743        ATTTCTCCG
+779  MA0437.1      YPR196W         5179.0  ...  0.000007    0.743        ATTTCCCCG
+
+[2 rows x 10 columns], 'GSM1':       motif_id motif_alt_id  ...  q-value       matched_sequence
+338   MA0308.1         GSM1  ...      1.0  TTGACAAAACCCCGGGGCAGG
+1808  MA0308.1         GSM1  ...      1.0  ATTAGGAAACGCCGAAGTGGT
+
+[2 rows x 10 columns], 'SPT2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+371   MA0387.1         SPT2         5909.0  ...  0.000004    0.402       AATTAAAGAA
+1379  MA0387.1         SPT2         5907.0  ...  0.000010    0.402       AATTAAGGAA
+
+[2 rows x 10 columns], 'INO4':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+399   MA0322.1         INO4         4678.0  ...  0.000004      1.0        GCATGTGAA
+5321  MA0322.1         INO4         1239.0  ...  0.000040      1.0        GCATGTGAC
+
+[2 rows x 10 columns], 'INO2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+400   MA0321.1         INO2         4678.0  ...  0.000004      1.0        GCATGTGAA
+3760  MA0321.1         INO2         4005.0  ...  0.000027      1.0        GCATGTCAA
+
+[2 rows x 10 columns], 'YGR067C':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+406  MA0425.1      YGR067C         5143.0  ...  0.000004    0.572   ACCCCGCTTCATCG
+503  MA0425.1      YGR067C         5245.0  ...  0.000005    0.572   ACCCCGCACCGTCC
+
+[2 rows x 10 columns], 'CAD1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+431  MA0279.1         CAD1           56.0  ...  0.000005    0.508       ATTAATAAGC
+432  MA0279.1         CAD1          777.0  ...  0.000005    0.508       ATTAATAAGC
+
+[2 rows x 10 columns], 'AFT1':       motif_id motif_alt_id  ...  q-value       matched_sequence
+456   MA0269.1         AFT1  ...      1.0  CGAAGTATTGCACCCACGCAG
+3907  MA0269.1         AFT1  ...      1.0  TTGCCTTCTACACCCGGGTTT
+
+[2 rows x 10 columns], 'STP3':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+467  MA0396.1         STP3         1904.0  ...  0.000005      1.0        GCTAGCGCG
+920  MA0396.1         STP3          639.0  ...  0.000008      1.0        GGTAGCGCA
+
+[2 rows x 10 columns], 'YER130C':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+504  MA0423.1      YER130C         1903.0  ...  0.000005      1.0        CCCCCTATC
+505  MA0423.1      YER130C         1355.0  ...  0.000005      1.0        CCCCCTATC
+
+[2 rows x 10 columns], 'ROX1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+519  MA0371.1         ROX1         5479.0  ...  0.000005    0.287     TCCATTGTTTTT
+722  MA0371.1         ROX1         4446.0  ...  0.000006    0.287     TCTATTGTTTTG
+
+[2 rows x 10 columns], 'EDS1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+527  MA0294.1         EDS1         1656.0  ...  0.000006    0.362        CGGAAAAAT
+528  MA0294.1         EDS1         2369.0  ...  0.000006    0.362        CGGAAAAAT
+
+[2 rows x 10 columns], 'YAP7':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+546  MA0419.1         YAP7          186.0  ...  0.000006    0.215      ATGAGTAATCA
+547  MA0419.1         YAP7         1738.0  ...  0.000006    0.215      ATGAGTAATCA
+
+[2 rows x 10 columns], 'MATALPHA2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+714   MA0328.1    MATALPHA2         3957.0  ...  0.000006    0.508        CATGTAATT
+1661  MA0328.1    MATALPHA2         5662.0  ...  0.000012    0.508        CATGTAAAT
+
+[2 rows x 10 columns], 'UME6':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+716  MA0412.1         UME6         2089.0  ...  0.000006    0.597    TCGGCAGCTAATT
+717  MA0412.1         UME6         2529.0  ...  0.000006    0.597    TCGGCAGCTAATT
+
+[2 rows x 10 columns], 'CRZ1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+727   MA0285.1         CRZ1         2072.0  ...  0.000006      1.0        CTAAGCCAC
+4257  MA0285.1         CRZ1          687.0  ...  0.000031      1.0        CAAAGCCCC
+
+[2 rows x 10 columns], 'NSI1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+785   MA0421.1         NSI1          735.0  ...  0.000007      1.0       TTCACCCGGC
+5836  MA0421.1         NSI1         1267.0  ...  0.000044      1.0       TGTACCAGGC
+
+[2 rows x 10 columns], 'STP1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+788  MA0394.1         STP1         1795.0  ...  0.000007      1.0         CGCGGCGC
+789  MA0394.1         STP1         4095.0  ...  0.000007      1.0         CGCGGCGC
+
+[2 rows x 10 columns], 'RSC30':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+791   MA0375.1        RSC30         1845.0  ...  0.000007      1.0         CGCGCGCG
+1787  MA0375.1        RSC30         1179.0  ...  0.000013      1.0         CCCGCGCG
+
+[2 rows x 10 columns], 'DAL82':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+819   MA0291.1        DAL82         1703.0  ...  0.000007      1.0        AAAGTGCGC
+1405  MA0291.1        DAL82         1943.0  ...  0.000010      1.0        ATTGTGCGC
+
+[2 rows x 10 columns], 'HAP5':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+821  MA0316.1         HAP5         5802.0  ...  0.000007    0.706  CCCGTTCTGATTGAT
+822  MA0316.1         HAP5         5814.0  ...  0.000007    0.706  CCCGTTCTGATTGAT
+
+[2 rows x 10 columns], 'YPR013C':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+840  MA0434.1      YPR013C         2299.0  ...  0.000007    0.495        TGTAGATCC
+841  MA0434.1      YPR013C         2434.0  ...  0.000007    0.495        TGTAGATCC
+
+[2 rows x 10 columns], 'SUT2':       motif_id motif_alt_id  ...  q-value      matched_sequence
+859   MA0400.1         SUT2  ...      1.0  CTTCAAAAGTCCGAGTTATT
+2153  MA0400.1         SUT2  ...      1.0  GACAGAAACTCCGAATAAAC
+
+[2 rows x 10 columns], 'RME1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+865   MA0370.1         RME1         5616.0  ...  0.000007    0.722       TCGAAAGGAA
+1868  MA0370.1         RME1         5716.0  ...  0.000014    0.722       CTCAAAGGAA
+
+[2 rows x 10 columns], 'OAF1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+900  MA0348.1         OAF1          407.0  ...  0.000008      1.0        TCGGGGATA
+901  MA0348.1         OAF1          561.0  ...  0.000008      1.0        TCGGGGATA
+
+[2 rows x 10 columns], 'IME1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+933   MA0320.1         IME1         5127.0  ...  0.000008      1.0         CCGCCGAG
+2420  MA0320.1         IME1         4643.0  ...  0.000017      1.0         CCGCGGAG
+
+[2 rows x 10 columns], 'SUM1':      motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+968  MA0398.1         SUM1         4418.0  ...  0.000009   0.0665        AAAATTTTT
+969  MA0398.1         SUM1         2535.0  ...  0.000009   0.0665        AAAATTTTT
+
+[2 rows x 10 columns], 'RGT1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+998   MA0367.1         RGT1         4447.0  ...  0.000009      1.0      GGTTTTTCCGT
+1672  MA0367.1         RGT1         1210.0  ...  0.000012      1.0      AGTTCTTCCGA
+
+[2 rows x 10 columns], 'SNT2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1009  MA0384.1         SNT2          658.0  ...  0.000009    0.908      TGCTAGCGGCG
+1663  MA0384.1         SNT2          639.0  ...  0.000012    0.908      CGGTAGCGCAG
+
+[2 rows x 10 columns], 'NHP10':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1011  MA0344.1        NHP10         1534.0  ...  0.000009      1.0         GCCGGGGA
+1012  MA0344.1        NHP10         4335.0  ...  0.000009      1.0         GCCGGGGA
+
+[2 rows x 10 columns], 'AZF1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1032  MA0277.1         AZF1         1670.0  ...  0.000009   0.0202        AAAAAGAAA
+1033  MA0277.1         AZF1         2449.0  ...  0.000009   0.0202        AAAAAGAAA
+
+[2 rows x 10 columns], 'NRG1':       motif_id motif_alt_id  ...  q-value      matched_sequence
+1318  MA0347.1         NRG1  ...      1.0  CCCAGCCGGGGTCCAATGGA
+1342  MA0347.1         NRG1  ...      1.0  AAGCTTAAGGGTCCTTGTGC
+
+[2 rows x 10 columns], 'FKH1':       motif_id motif_alt_id  ...  q-value      matched_sequence
+1329  MA0296.1         FKH1  ...    0.175  AGTAAAATAAACAAAAAGGT
+1330  MA0296.1         FKH1  ...    0.175  AGTAAAATAAACAAAAAGGT
+
+[2 rows x 10 columns], 'AFT2':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+1337  MA0270.1         AFT2          991.0  ...  0.00001      1.0         CACACCCC
+1338  MA0270.1         AFT2         1243.0  ...  0.00001      1.0         CACACCCC
+
+[2 rows x 10 columns], 'CUP2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1349  MA0287.1         CUP2          246.0  ...  0.000010    0.146      CAGCAAAAAAA
+1705  MA0287.1         CUP2         3701.0  ...  0.000013    0.146      CAGCGGAAAAA
+
+[2 rows x 10 columns], 'PDR3':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+1370  MA0353.1         PDR3         1231.0  ...  0.00001      1.0         TCCGCGGA
+1371  MA0353.1         PDR3          329.0  ...  0.00001      1.0         TCCGCGGA
+
+[2 rows x 10 columns], 'PDR1':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+1372  MA0352.1         PDR1         1231.0  ...  0.00001      1.0         TCCGCGGA
+1373  MA0352.1         PDR1          329.0  ...  0.00001      1.0         TCCGCGGA
+
+[2 rows x 10 columns], 'PHO4':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+1374  MA0357.1         PHO4         1681.0  ...  0.00001      1.0         GCACGTGC
+1375  MA0357.1         PHO4         3980.0  ...  0.00001      1.0         GCACGTGC
+
+[2 rows x 10 columns], 'YKL222C':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+1393  MA0428.1      YKL222C          155.0  ...  0.00001    0.821        AACGGAAAT
+1394  MA0428.1      YKL222C         1473.0  ...  0.00001    0.821        AACGGAAAT
+
+[2 rows x 10 columns], 'TEA1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1408  MA0405.1         TEA1         1675.0  ...  0.000010      1.0         GCGGGCAT
+3129  MA0405.1         TEA1         1486.0  ...  0.000023      1.0         GCGGACAT
+
+[2 rows x 10 columns], 'ZAP1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1422  MA0440.1         ZAP1         4048.0  ...  0.000010      1.0  AGCTTAAGGGTGTTG
+1569  MA0440.1         ZAP1         1454.0  ...  0.000011      1.0  ACTCTGAAGGTTACG
+
+[2 rows x 10 columns], 'MCM1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1424  MA0331.1         MCM1         3832.0  ...  0.000010      1.0     CCCCTTTTGGAA
+2921  MA0331.1         MCM1         1205.0  ...  0.000021      1.0     CCAAATAGGGAA
+
+[2 rows x 10 columns], 'YPR015C':       motif_id motif_alt_id  ...  q-value      matched_sequence
+1551  MA0435.1      YPR015C  ...    0.302  ATTTGACGCAAATCCTTATA
+2071  MA0435.1      YPR015C  ...    0.302  TTCCGACGCAAATCCGCATA
+
+[2 rows x 10 columns], 'CHA4':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1557  MA0283.1         CHA4         1168.0  ...  0.000011      1.0         GGCGGAGA
+3010  MA0283.1         CHA4         4184.0  ...  0.000022      1.0         GGCGGAGT
+
+[2 rows x 10 columns], 'ARG81':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1611  MA0272.1        ARG81         4633.0  ...  0.000012      1.0         GTGACTCC
+9651  MA0272.1        ARG81         1088.0  ...  0.000071      1.0         ATGACTCT
+
+[2 rows x 10 columns], 'RFX1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1658  MA0365.1         RFX1         1784.0  ...  0.000012      1.0         GGTTGCCA
+6688  MA0365.1         RFX1         1744.0  ...  0.000052      1.0         CGTTGCTA
+
+[2 rows x 10 columns], 'YLR278C':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1659  MA0430.1      YLR278C         1165.0  ...  0.000012      1.0         CCGGAGTT
+5202  MA0430.1      YLR278C         1704.0  ...  0.000039      1.0         CCGGAGTA
+
+[2 rows x 10 columns], 'ASH1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1662  MA0276.1         ASH1         3709.0  ...  0.000012      1.0       CCGAGTCAGG
+1799  MA0276.1         ASH1         1849.0  ...  0.000013      1.0       CCACATCAGG
+
+[2 rows x 10 columns], 'YER184C':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1685  MA0424.1      YER184C         1782.0  ...  0.000012      1.0         CTCCGGAA
+1686  MA0424.1      YER184C          899.0  ...  0.000012      1.0         CTCCGGAA
+
+[2 rows x 10 columns], 'CIN5':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1690  MA0284.1         CIN5         2340.0  ...  0.000012    0.853       TTACCTAAGC
+1850  MA0284.1         CIN5          380.0  ...  0.000014    0.853       TTACATAAGC
+
+[2 rows x 10 columns], 'RDR1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1709  MA0360.1         RDR1         1787.0  ...  0.000013      1.0         TGCGGAAC
+3936  MA0360.1         RDR1         5422.0  ...  0.000028      1.0         TGCGGAAA
+
+[2 rows x 10 columns], 'HAC1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1710  MA0310.1         HAC1         1283.0  ...  0.000013      1.0         GACACGTG
+3067  MA0310.1         HAC1         1423.0  ...  0.000022      1.0         GCCACGTG
+
+[2 rows x 10 columns], 'GCR1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1711  MA0304.1         GCR1         5526.0  ...  0.000013      1.0         TGGAAGCC
+1712  MA0304.1         GCR1         4331.0  ...  0.000013      1.0         TGGAAGCC
+
+[2 rows x 10 columns], 'CBF1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1713  MA0281.1         CBF1          725.0  ...  0.000013      1.0         GCACGTGA
+1714  MA0281.1         CBF1         1913.0  ...  0.000013      1.0         GCACGTGA
+
+[2 rows x 10 columns], 'ERT1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1758  MA0420.1         ERT1         1099.0  ...  0.000013      1.0         ACCGGAAC
+3915  MA0420.1         ERT1         1520.0  ...  0.000028      1.0         ATCGGAAC
+
+[2 rows x 10 columns], 'PDR8':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1764  MA0354.1         PDR8         1168.0  ...  0.000013      1.0         GCGGAGAT
+5456  MA0354.1         PDR8         4168.0  ...  0.000041      1.0         CCGGAGAT
+
+[2 rows x 10 columns], 'GAT3':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1805  MA0301.1         GAT3         4463.0  ...  0.000013      1.0        AGATCTACG
+2581  MA0301.1         GAT3         5454.0  ...  0.000018      1.0        AGATCTACT
+
+[2 rows x 10 columns], 'SWI5':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1842  MA0402.1         SWI5          948.0  ...  0.000014      1.0         TGCTGGTT
+3555  MA0402.1         SWI5         4114.0  ...  0.000025      1.0         TGCTGGTC
+
+[2 rows x 10 columns], 'TEC1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1862  MA0406.1         TEC1          787.0  ...  0.000014      1.0         ACATTCCC
+1863  MA0406.1         TEC1         4510.0  ...  0.000014      1.0         ACATTCCC
+
+[2 rows x 10 columns], 'USV1':       motif_id motif_alt_id  ...  q-value      matched_sequence
+1867  MA0413.1         USV1  ...      1.0  CAGTTACCCTTGAAACGGTG
+3739  MA0413.1         USV1  ...      1.0  AGATTACCCCTGGAGGCTTT
+
+[2 rows x 10 columns], 'STB5':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1908  MA0392.1         STB5          351.0  ...  0.000014      1.0         CGGTGTTA
+1909  MA0392.1         STB5          943.0  ...  0.000014      1.0         CGGTGTTA
+
+[2 rows x 10 columns], 'ARO80':       motif_id motif_alt_id  ...  q-value       matched_sequence
+1922  MA0273.1        ARO80  ...      1.0  GTTCCTCCTCGGGAACGACAT
+3171  MA0273.1        ARO80  ...      1.0  GAGTACGTTCGGTAATTGAGG
+
+[2 rows x 10 columns], 'LYS14':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+1940  MA0325.1        LYS14         1688.0  ...  0.000015      1.0         CCGGAATT
+1941  MA0325.1        LYS14         4289.0  ...  0.000015      1.0         CCGGAATT
+
+[2 rows x 10 columns], 'MET4':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2062  MA0335.1         MET4         4477.0  ...  0.000015      1.0         AACTGTGG
+2063  MA0335.1         MET4         1919.0  ...  0.000015      1.0         AACTGTGG
+
+[2 rows x 10 columns], 'YNR063W':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2065  MA0432.1      YNR063W          850.0  ...  0.000015      1.0         TCGGAGAT
+2066  MA0432.1      YNR063W         4463.0  ...  0.000015      1.0         TCGGAGAT
+
+[2 rows x 10 columns], 'REB1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2083  MA0363.1         REB1          789.0  ...  0.000015      1.0        ATTACCCTG
+3017  MA0363.1         REB1         1556.0  ...  0.000022      1.0        GTTACCCGA
+
+[2 rows x 10 columns], 'PHD1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2096  MA0355.1         PHD1         3732.0  ...  0.000015      1.0       CGCTGCATCA
+5798  MA0355.1         PHD1         1134.0  ...  0.000043      1.0       GGCTGCATCC
+
+[2 rows x 10 columns], 'GAT1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2102  MA0300.1         GAT1         2127.0  ...  0.000015      1.0         CCGATAAG
+2103  MA0300.1         GAT1         1546.0  ...  0.000015      1.0         CCGATAAG
+
+[2 rows x 10 columns], 'CEP3':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2105  MA0282.1         CEP3          244.0  ...  0.000015      1.0         CTCGGAAA
+2106  MA0282.1         CEP3         1868.0  ...  0.000015      1.0         CTCGGAAA
+
+[2 rows x 10 columns], 'HAP1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2140  MA0312.1         HAP1         1168.0  ...  0.000016      1.0         CGGAGATA
+6309  MA0312.1         HAP1         1486.0  ...  0.000047      1.0         CGGACATA
+
+[2 rows x 10 columns], 'MAC1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2186  MA0326.1         MAC1         3766.0  ...  0.000016      1.0         TTTGCTCA
+4015  MA0326.1         MAC1         4472.0  ...  0.000029      1.0         TTTGCTCG
+
+[2 rows x 10 columns], 'FHL1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2190  MA0295.1         FHL1         5040.0  ...  0.000016   0.0686         GACGCAAA
+2191  MA0295.1         FHL1         4990.0  ...  0.000016   0.0686         GACGCAAA
+
+[2 rows x 10 columns], 'SWI4':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2347  MA0401.1         SWI4         1382.0  ...  0.000016      1.0         ACGCGAAA
+2348  MA0401.1         SWI4         1945.0  ...  0.000016      1.0         ACGCGAAA
+
+[2 rows x 10 columns], 'HMRA2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2506  MA0318.1        HMRA2         2144.0  ...  0.000018    0.611         CGTGTAAT
+2507  MA0318.1        HMRA2         1676.0  ...  0.000018    0.611         CGTGTAAT
+
+[2 rows x 10 columns], 'UGA3':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2527  MA0410.1         UGA3          467.0  ...  0.000018      1.0         GGGCGGGA
+3719  MA0410.1         UGA3         1367.0  ...  0.000026      1.0         CCGCGGGA
+
+[2 rows x 10 columns], 'TOS8':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2576  MA0408.1         TOS8         1658.0  ...  0.000018      1.0         CTGTCAAA
+2577  MA0408.1         TOS8         3859.0  ...  0.000018      1.0         CTGTCAAA
+
+[2 rows x 10 columns], 'SRD1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2579  MA0389.1         SRD1         5454.0  ...  0.000018      1.0         AGATCTAC
+2580  MA0389.1         SRD1         4463.0  ...  0.000018      1.0         AGATCTAC
+
+[2 rows x 10 columns], 'TOD6':       motif_id motif_alt_id  ...  q-value       matched_sequence
+2586  MA0350.1         TOD6  ...    0.693  AAGTTGGGCTCATCGCCGTGC
+2864  MA0350.1         TOD6  ...    0.693  ATAGTTTCCTCATCGCAGCAA
+
+[2 rows x 10 columns], 'SKO1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2706  MA0382.1         SKO1         5393.0  ...  0.000019      1.0         ACGTAATG
+4815  MA0382.1         SKO1         1821.0  ...  0.000036      1.0         ACGTATTG
+
+[2 rows x 10 columns], 'HSF1':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+2779  MA0319.1         HSF1         5421.0  ...  0.00002      1.0         ATGGAACA
+2780  MA0319.1         HSF1         1994.0  ...  0.00002      1.0         ATGGAACA
+
+[2 rows x 10 columns], 'GZF3':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+2781  MA0309.1         GZF3         2127.0  ...  0.00002      1.0         CGATAAGA
+2782  MA0309.1         GZF3         1657.0  ...  0.00002      1.0         CGATAAGA
+
+[2 rows x 10 columns], 'YRM1':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+2785  MA0438.1         YRM1         5468.0  ...  0.00002      1.0         ACGGAAAT
+2786  MA0438.1         YRM1         1471.0  ...  0.00002      1.0         ACGGAAAT
+
+[2 rows x 10 columns], 'PUT3':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+2853  MA0358.1         PUT3         1593.0  ...  0.00002      1.0         CCCGGGAT
+2854  MA0358.1         PUT3          839.0  ...  0.00002      1.0         CCCGGGAT
+
+[2 rows x 10 columns], 'TBS1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2855  MA0404.1         TBS1          631.0  ...  0.000020      1.0         CGGAACCG
+3947  MA0404.1         TBS1         1005.0  ...  0.000028      1.0         CGGACCCG
+
+[2 rows x 10 columns], 'HAP3':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+2883  MA0314.1         HAP3         4283.0  ...  0.000021      1.0  TTTGATTGGCGCATT
+4484  MA0314.1         HAP3          586.0  ...  0.000034      1.0  CGCGATTGGTCAGGC
+
+[2 rows x 10 columns], 'ARR1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3021  MA0274.1         ARR1         1023.0  ...  0.000022      1.0         ACTTGAAT
+3022  MA0274.1         ARR1         1330.0  ...  0.000022      1.0         ACTTGAAT
+
+[2 rows x 10 columns], 'YAP3':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3023  MA0416.1         YAP3         4604.0  ...  0.000022      1.0         ATTACGTA
+3024  MA0416.1         YAP3         2108.0  ...  0.000022      1.0         ATTACGTA
+
+[2 rows x 10 columns], 'SPT23':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3398  MA0388.1        SPT23         4394.0  ...  0.000024    0.125         GAAATCAA
+3399  MA0388.1        SPT23         5577.0  ...  0.000024    0.125         GAAATCAA
+
+[2 rows x 10 columns], 'GIS1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3625  MA0306.1         GIS1         4024.0  ...  0.000025      1.0        ACCCCTTAT
+4769  MA0306.1         GIS1         2379.0  ...  0.000036      1.0        TCCCCTAAT
+
+[2 rows x 10 columns], 'CUP9':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3713  MA0288.1         CUP9         5585.0  ...  0.000026      1.0        TGACATATT
+3714  MA0288.1         CUP9         4933.0  ...  0.000026      1.0        TGACATATT
+
+[2 rows x 10 columns], 'MIG1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3797  MA0337.1         MIG1         5225.0  ...  0.000027    0.572          CCCCCGC
+3798  MA0337.1         MIG1         5200.0  ...  0.000027    0.572          CCCCCGC
+
+[2 rows x 10 columns], 'RPH1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3930  MA0372.1         RPH1         4024.0  ...  0.000028      1.0         ACCCCTTA
+5500  MA0372.1         RPH1         1958.0  ...  0.000042      1.0         TCCCCTAA
+
+[2 rows x 10 columns], 'URC2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3932  MA0422.1         URC2         4706.0  ...  0.000028    0.116       CCGGACTTAT
+4403  MA0422.1         URC2         1168.0  ...  0.000033    0.116       GCGGAGATAT
+
+[2 rows x 10 columns], 'RDS1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+3995  MA0361.1         RDS1         1668.0  ...  0.000029      1.0          CGGCCGC
+3996  MA0361.1         RDS1         1576.0  ...  0.000029      1.0          CGGCCGC
+
+[2 rows x 10 columns], 'HCM1':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+4045  MA0317.1         HCM1         1461.0  ...  0.00003    0.165         ATAAACAA
+4046  MA0317.1         HCM1         1459.0  ...  0.00003    0.165         ATAAACAA
+
+[2 rows x 10 columns], 'RSC3':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+4121  MA0374.1         RSC3         1795.0  ...  0.00003      1.0          CGCGCGG
+4122  MA0374.1         RSC3         1179.0  ...  0.00003      1.0          CGCGCGG
+
+[2 rows x 10 columns], 'SUT1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4269  MA0399.1         SUT1         1252.0  ...  0.000031      1.0          CGCGGGG
+4270  MA0399.1         SUT1          433.0  ...  0.000031      1.0          CGCGGGG
+
+[2 rows x 10 columns], 'YOX1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4366  MA0433.1         YOX1         5566.0  ...  0.000032      1.0         TTAATTAA
+4367  MA0433.1         YOX1          560.0  ...  0.000032      1.0         TTAATTAA
+
+[2 rows x 10 columns], 'CST6':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4417  MA0286.1         CST6          434.0  ...  0.000033      1.0        ATGACGTCG
+6286  MA0286.1         CST6         1814.0  ...  0.000046      1.0        GTGACGTAT
+
+[2 rows x 10 columns], 'STP2':       motif_id motif_alt_id  ...  q-value      matched_sequence
+4517  MA0395.1         STP2  ...      1.0  CCCGTGGCGCCGCCCCTCCT
+4927  MA0395.1         STP2  ...      1.0  GGAGCAGCGGCGCGTGCTTT
+
+[2 rows x 10 columns], 'YPR022C':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4551  MA0436.1      YPR022C         1725.0  ...  0.000035    0.995          CCCCACG
+4552  MA0436.1      YPR022C         1130.0  ...  0.000035    0.995          CCCCACG
+
+[2 rows x 10 columns], 'MIG3':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4563  MA0339.1         MIG3         5175.0  ...  0.000035    0.465          CCCCGCA
+4564  MA0339.1         MIG3         5120.0  ...  0.000035    0.465          CCCCGCA
+
+[2 rows x 10 columns], 'MIG2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4613  MA0338.1         MIG2         5175.0  ...  0.000035    0.457          CCCCGCA
+4614  MA0338.1         MIG2         5120.0  ...  0.000035    0.457          CCCCGCA
+
+[2 rows x 10 columns], 'RDS2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4804  MA0362.1         RDS2         1911.0  ...  0.000036      1.0          CTCGGGG
+4805  MA0362.1         RDS2          589.0  ...  0.000036      1.0          CTCGGGG
+
+[2 rows x 10 columns], 'YLL054C':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+4956  MA0429.1      YLL054C         4189.0  ...  0.000037      1.0          CGGCCGA
+4957  MA0429.1      YLL054C         1434.0  ...  0.000037      1.0          CGGCCGA
+
+[2 rows x 10 columns], 'RPN4':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5048  MA0373.1         RPN4          431.0  ...  0.000037      1.0          GGTGGCG
+5049  MA0373.1         RPN4         1168.0  ...  0.000037      1.0          GGTGGCG
+
+[2 rows x 10 columns], 'REI1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5482  MA0364.1         REI1         1839.0  ...  0.000042      1.0          CCCCTGA
+5483  MA0364.1         REI1         4090.0  ...  0.000042      1.0          CCCCTGA
+
+[2 rows x 10 columns], 'ADR1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5713  MA0268.1         ADR1         1253.0  ...  0.000043      1.0          ACCCCAC
+5714  MA0268.1         ADR1         1479.0  ...  0.000043      1.0          ACCCCAC
+
+[2 rows x 10 columns], 'SIP4':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5742  MA0380.1         SIP4         1709.0  ...  0.000043      1.0          CTCCGGA
+5743  MA0380.1         SIP4         1782.0  ...  0.000043      1.0          CTCCGGA
+
+[2 rows x 10 columns], 'ECM22':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5749  MA0292.1        ECM22         1709.0  ...  0.000043      1.0          CTCCGGA
+5750  MA0292.1        ECM22         1782.0  ...  0.000043      1.0          CTCCGGA
+
+[2 rows x 10 columns], 'MBP1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5756  MA0329.1         MBP1         1217.0  ...  0.000043      1.0          ACGCGTC
+5757  MA0329.1         MBP1         4207.0  ...  0.000043      1.0          ACGCGTC
+
+[2 rows x 10 columns], 'MET32':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5851  MA0334.1        MET32         5192.0  ...  0.000044      1.0          CGCCACA
+5852  MA0334.1        MET32          637.0  ...  0.000044      1.0          CGCCACA
+
+[2 rows x 10 columns], 'XBP1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+5885  MA0414.1         XBP1         1944.0  ...  0.000044    0.959          CTCGAGG
+5886  MA0414.1         XBP1          140.0  ...  0.000044    0.959          CTCGAGG
+
+[2 rows x 10 columns], 'RIM101':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+6229  MA0368.1       RIM101         1739.0  ...  0.000046      1.0          CGCCAAG
+6230  MA0368.1       RIM101         5154.0  ...  0.000046      1.0          CGCCAAG
+
+[2 rows x 10 columns], 'OPI1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+6235  MA0349.1         OPI1         1690.0  ...  0.000046      1.0          CGAACCG
+6236  MA0349.1         OPI1          740.0  ...  0.000046      1.0          CGAACCG
+
+[2 rows x 10 columns], 'GCR2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+6423  MA0305.1         GCR2         1526.0  ...  0.000048      1.0          GCTTCCT
+6424  MA0305.1         GCR2         1826.0  ...  0.000048      1.0          GCTTCCT
+
+[2 rows x 10 columns], 'TBF1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+6472  MA0403.1         TBF1         4313.0  ...  0.000048      1.0         AACCCTAG
+8105  MA0403.1         TBF1         1683.0  ...  0.000061      1.0         AGCCCTAG
+
+[2 rows x 10 columns], 'MBP1::SWI6':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+6708  MA0330.1   MBP1::SWI6         1520.0  ...  0.000052      1.0          ACGCGTT
+6709  MA0330.1   MBP1::SWI6         1455.0  ...  0.000052      1.0          ACGCGTT
+
+[2 rows x 10 columns], 'TYE7':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+7402  MA0409.1         TYE7          623.0  ...  0.000055      1.0          CACGTGA
+7403  MA0409.1         TYE7          725.0  ...  0.000055      1.0          CACGTGA
+
+[2 rows x 10 columns], 'STB4':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+7410  MA0391.1         STB4         1688.0  ...  0.000055      1.0          CTCGGAA
+7411  MA0391.1         STB4          244.0  ...  0.000055      1.0          CTCGGAA
+
+[2 rows x 10 columns], 'ACE2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+7539  MA0267.1         ACE2         5536.0  ...  0.000056      1.0          ACCAGCA
+7540  MA0267.1         ACE2         1963.0  ...  0.000056      1.0          ACCAGCA
+
+[2 rows x 10 columns], 'ABF2':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+8423  MA0266.1         ABF2         5512.0  ...  0.000064    0.169          CTCTAGA
+8424  MA0266.1         ABF2         5815.0  ...  0.000064    0.169          CTCTAGA
+
+[2 rows x 10 columns], 'HMRA1':       motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+8899  MA0327.1        HMRA1         5793.0  ...  0.000068     0.92          GCACAAT
+8900  MA0327.1        HMRA1         5795.0  ...  0.000068     0.92          GCACAAT
+
+[2 rows x 10 columns], 'DAL80':       motif_id motif_alt_id  sequence_name  ...  p-value  q-value matched_sequence
+9486  MA0289.1        DAL80         2127.0  ...  0.00007      1.0          CGATAAG
+9487  MA0289.1        DAL80         1657.0  ...  0.00007      1.0          CGATAAG
+
+[2 rows x 10 columns], 'UPC2':        motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+10486  MA0411.1         UPC2         4839.0  ...  0.000081    0.717          TATACGA
+10487  MA0411.1         UPC2         3486.0  ...  0.000081    0.717          TATACGA
+
+[2 rows x 10 columns], 'STE12':        motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+10838  MA0393.1        STE12         5478.0  ...  0.000086    0.822          TGAAACA
+10839  MA0393.1        STE12         5529.0  ...  0.000086    0.822          TGAAACA
+
+[2 rows x 10 columns], 'FKH2':        motif_id motif_alt_id  sequence_name  ...   p-value  q-value matched_sequence
+10906  MA0297.1         FKH2         5734.0  ...  0.000086    0.854          GTAAACA
+10907  MA0297.1         FKH2         1299.0  ...  0.000086    0.854          GTAAACA
+
+[2 rows x 10 columns], nan:                                                 motif_id  ...  matched_sequence
+12418  # FIMO (Find Individual Motif Occurrences): Ve...  ...               NaN
+12419  # The format of this file is described at http...  ...               NaN
+
+[2 rows x 10 columns]}
