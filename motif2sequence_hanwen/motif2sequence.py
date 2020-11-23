@@ -22,6 +22,7 @@ class P2P_model(BaseModel):
             self.optimizer_D = torch.optim.Adam(self.netD.parameters(), lr=opt.lr, betas=(opt.beta1, 0.999))
             self.optimizers.append(self.optimizer_G)
             self.optimizers.append(self.optimizer_D)
+        from IPython import embed; embed()
 
     def set_input(self, input):
         self.realA = torch.tensor(input['A']).to(self.device)

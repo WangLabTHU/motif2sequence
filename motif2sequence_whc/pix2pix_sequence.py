@@ -9,7 +9,7 @@ import random
 import time
 import math
 
-BATCH_SIZE = 32
+BATCH_SIZE = 64
 EPS = 1e-12
 Model = collections.namedtuple("Model", "outputs, predict_real, predict_fake, discrim_loss, discrim_grads_and_vars, gen_loss_GAN, gen_loss_L1, gen_grads_and_vars, train")
 
@@ -45,7 +45,7 @@ class DataLoader():
             store_onehot[index, :, :] = onehot_encoded_seq
         return store_onehot, onehot_encoder, label_encoder
 
-    def make_generator(self, data_matrix, batch_size, random_shuffle=True):
+    def make_generator(self, data_matrix, batch_size, random_shuffle=False):
         while True:
             if random_shuffle:
                 np.random.shuffle(data_matrix)
@@ -59,9 +59,9 @@ class GANModel:
         self.strides = 2
         self.ngf = 64 # number of generator filters
         self.ndf = 64 # number of discriminator filters
-        self.gan_weight = 1.0
-        self.l1_weight = 100.0
-        self.lr = 0.0002
+        self.gan_weight = 1
+        self.l1_weight = 100
+        self.lr = 0.0001
         self.beta1 = 0.5
         self.batch_size = BATCH_SIZE
 
@@ -88,7 +88,7 @@ class GANModel:
 
     def discrim_conv(self, batch_input, out_channels, stride):
         padded_input = tf.pad(batch_input, [[0, 0], [1, 1], [0, 0]], mode="CONSTANT")
-        return tf.layers.conv1d(padded_input, out_channels, kernel_size = self.kernel_size, strides=self.strides,
+        return tf.layers.conv1d(padded_input, out_channels, kernel_size = self.kernel_size, strides=stride,
                                 padding="valid", kernel_initializer=tf.random_normal_initializer(0, 0.02))
 
     def lrelu(self, x, a):
@@ -172,14 +172,14 @@ class GANModel:
             input = tf.concat([layers[-1], layers[0]], axis=2)
             rectified = tf.nn.relu(input)
             output = self.gen_deconv(rectified, generator_outputs_channels, kernel_size = 4, padding_method = 'SAME')
-            output = tf.tanh(output)
+            output = tf.nn.softmax(output, axis=2)
             layers.append(output)
 
         return layers[-1]
 
     def create_model(self, inputs, targets):
         def create_discriminator(discrim_inputs, discrim_targets):
-            n_layers = 3
+            n_layers = 2
             layers = []
 
             # 2x [batch, height, width, in_channels] => [batch, height, width, in_channels * 2]
@@ -193,17 +193,17 @@ class GANModel:
 
             # layer_2: [batch, 59, ndf] => [batch, 29, ndf * 2]
             # layer_3: [batch, 29, ndf * 2] => [batch, 14, ndf * 4]
-            # layer_4: [batch, 14, ndf * 4] => [batch, 7, ndf * 8]
+            ## layer_4: [batch, 14, ndf * 4] => [batch, 7, ndf * 8]
             for i in range(n_layers):
                 with tf.variable_scope("layer_%d" % (len(layers) + 1)):
                     out_channels = self.ndf * min(2 ** (i + 1), 8)
-                    stride = 1 if i == n_layers - 1 else 2  # last layer here has stride 1
+                    stride = 2  # last layer here has stride 1
                     convolved = self.discrim_conv(layers[-1], out_channels, stride=stride)
                     normalized = self.batchnorm(convolved)
                     rectified = self.lrelu(normalized, 0.2)
                     layers.append(rectified)
 
-            # layer_5: [batch, 31, 31, ndf * 8] => [batch, 30, 30, 1]
+            # layer_5: [batch, 14, ndf * 8] => [batch, 13, 1]
             with tf.variable_scope("layer_%d" % (len(layers) + 1)):
                 convolved = self.discrim_conv(rectified, out_channels=1, stride=1)
 
@@ -220,12 +220,12 @@ class GANModel:
         # they share the same underlying variables
         with tf.name_scope("real_discriminator"):
             with tf.variable_scope("discriminator"):
-                # 2x [batch, height, width, channels] => [batch, 30, 30, 1]
+                # 2x [batch, height, width, channels] => [batch, n, 1]
                 predict_real = create_discriminator(inputs, targets)
 
         with tf.name_scope("fake_discriminator"):
             with tf.variable_scope("discriminator", reuse=True):
-                # 2x [batch, height, width, channels] => [batch, 30, 30, 1]
+                # 2x [batch, height, width, channels] => [batch, n, 1]
                 predict_fake = create_discriminator(inputs, outputs)
 
         with tf.name_scope("discriminator_loss"):
@@ -282,7 +282,7 @@ if __name__ == '__main__':
     seq_len = 118
     trace_freq = 0
     summary_freq = 100
-    max_epochs = 100
+    max_epochs = 1000
     progress_freq = 50
     generate_samples = 500
     save_freq = 5000
@@ -340,6 +340,15 @@ if __name__ == '__main__':
     with sv.managed_session() as sess:
         print("parameter_count =", sess.run(parameter_count))
 
+        def onehot2seq(onehot):
+            label = onehot_encoder.inverse_transform(onehot)
+            seq = label_encoder.inverse_transform(label.ravel())
+            seq = list(seq)
+            string = ''
+            for sub_item in seq:
+                string = string + sub_item
+            return string
+
         max_steps = 2**32
         if max_epochs is not None:
             max_steps = steps_per_epoch * max_epochs
@@ -373,8 +382,7 @@ if __name__ == '__main__':
 
                 seq = next(gen_seq)
                 outline = next(gen_outline)
-
-                results = sess.run(fetches, options=options, run_metadata=run_metadata, feed_dict={inputs:seq, targets:outline})
+                results = sess.run(fetches, options=options, run_metadata=run_metadata, feed_dict={inputs:outline, targets:seq})
 
 
                 if should(summary_freq):
@@ -402,21 +410,28 @@ if __name__ == '__main__':
 
                 if should(generate_samples):
                     print("Generate samples")
-                    samples = []
-                    for i in range(steps_per_epoch):
-                        tmp_inputs = outline_onehot[i*batch_size: (i+1)*batch_size]
-                        result = sess.run(model.outputs, feed_dict={inputs: tmp_inputs})
-                        for item in result:
-                            label = onehot_encoder.inverse_transform(item)
-                            seq = label_encoder.inverse_transform(label.ravel())
-                            seq = list(seq)
-                            str = ''
-                            for sub_item in seq:
-                                str = str + sub_item
-                            samples.append(str)
-                    with open('samples_%d_%d.txt' % (train_epoch, train_step), 'w') as f:
-                        for item in samples:
-                            f.write(item + '\n')
+                    seq_outputs = []
+                    seq_inputs = []
+                    seq_groundtruths = []
+                    for i in range(steps_per_epoch): #每次取一个batch的信号
+                        tmp_inputs = outline_onehot[i*batch_size: (i+1)*batch_size]  #输入向量
+                        tmp_groundtruths = seq_onehot[i*batch_size: (i+1)*batch_size] #ground truth
+                        tmp_outputs = sess.run(model.outputs, feed_dict={inputs: tmp_inputs})  #模型输出
+                        for j in range(len(tmp_outputs)):
+                            seq_output = onehot2seq(tmp_outputs[j])  #onehot变为sequence
+                            seq_input = onehot2seq(tmp_inputs[j])
+                            seq_groundtruth = onehot2seq(tmp_groundtruths[j])
+                            seq_outputs.append(seq_output)   #将sequence计入list
+                            seq_inputs.append(seq_input)
+                            seq_groundtruths.append(seq_groundtruth)
+                    
+                    # 将记录好的结果输出
+                    with open('samples_%d_%d.csv' % (train_epoch, train_step), 'w') as f:  
+                        f.write('input_A, fake_B, real_B\n')
+                        for i in range(len(seq_outputs)):
+                            f.write(seq_inputs[i] + ', ')
+                            f.write(seq_outputs[i] + ', ')
+                            f.write(seq_groundtruths[i] + '\n')
 
 
 

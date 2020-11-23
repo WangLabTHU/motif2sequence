@@ -23,6 +23,8 @@ CMP_test = CMP_dataset(opt_test)
 dataset_train = DataLoader(dataset=CMP_train, batch_size=300, shuffle=True)
 dataset_test = DataLoader(dataset=CMP_test, batch_size=1, shuffle=False)
 model.setup(opt_train)
+
+
 for epoch in range(opt_train.epoch_count, opt_train.n_epochs + opt_train.n_epochs_decay + 1):
     model.update_learning_rate()
     num = 0
